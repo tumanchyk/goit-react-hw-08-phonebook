@@ -14,4 +14,11 @@ border: none;
 width: 300px;
 border-radius: 50px;
 margin-top: 15px;`
-export {Label, Input}
+
+const Title2 = styled.h1`
+font-size: 24px;
+text-align: center;
+color: #fff;
+padding: 20px;`
+
+export {Label, Input, Title2}

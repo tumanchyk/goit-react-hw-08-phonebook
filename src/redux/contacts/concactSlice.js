@@ -19,7 +19,6 @@ const contactsSlice = createSlice({
 
         [addContact.pending]: pending,
         [addContact.fulfilled]: (state, action) => {
-            console.log(action);
             state.list.unshift(action.payload)
             fulfilled(state)
         },
